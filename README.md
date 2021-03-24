@@ -12,10 +12,11 @@ My luci-app-atinout-mod is modyfication of https://github.com/koshev-msk/luci-ap
 
 ![](https://raw.githubusercontent.com/4IceG/Personal_data/master/atcommands.gif)
 
-### Troubleshooting / Rozwiazywanie problemow
+### Troubleshooting / Rozwiązywanie problemów
 ``` bash
 #Permission denied when sending any AT command.
-#Find the file on the router (/ usr / bin / luci-app-atinout) and check if it is executable or execute the command in console.
+#Find the file on the router (/ usr / bin / luci-app-atinout) and check if it is executable.
+#Execute the command in console.
 
 chmod 755 /usr/bin/luci-app-atinout
 
