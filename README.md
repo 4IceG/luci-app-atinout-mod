@@ -11,3 +11,13 @@ My luci-app-atinout-mod is modyfication of https://github.com/koshev-msk/luci-ap
 ### Preview and quick configuration (modem Quectel EM12-G) / Podgląd oraz szybka konfiguracja (modem Quectel EM12-G)
 
 ![](https://raw.githubusercontent.com/4IceG/Personal_data/master/atcommands.gif)
+
+### Troubleshooting / Rozwiazywanie problemow
+``` bash
+#Permission denied when sending any AT command.
+#Find the file on the router (/ usr / bin / luci-app-atinout) and check if it is executable or execute the command in console.
+
+chmod 755 /usr/bin/luci-app-atinout
+
+```
+
