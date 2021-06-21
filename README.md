@@ -8,11 +8,11 @@ My luci-app-atinout-mod is modyfication of https://github.com/koshev-msk/luci-ap
 ![GitHub forks](https://img.shields.io/github/forks/4IceG/luci-app-atinout-mod?style=flat-square)
 ![GitHub All Releases](https://img.shields.io/github/downloads/4IceG/luci-app-atinout-mod/total)
 
-### Preview and quick configuration (modem Quectel EM12-G) / Podgląd oraz szybka konfiguracja (modem Quectel EM12-G)
+### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="32"> Preview and quick configuration (modem Quectel EM160R-GL) / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="32"> Podgląd oraz szybka konfiguracja (modem Quectel EM160R-GL)
 
 ![](https://raw.githubusercontent.com/4IceG/Personal_data/master/atcommands.gif)
 
-### Troubleshooting / Rozwiązywanie problemów
+### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="32"> Troubleshooting / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="32"> Rozwiązywanie problemów
 ``` bash
 #Permission denied when sending any AT command.
 #Find the file on the router (/ usr / bin / luci-app-atinout) and check if it is executable.
