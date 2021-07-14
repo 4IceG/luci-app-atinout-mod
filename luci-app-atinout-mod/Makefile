@@ -2,11 +2,15 @@ include $(TOPDIR)/rules.mk
 	
 LUCI_TITLE:=Web UI for atinout
 LUCI_DEPENDS:=+atinout +luci-compat
-PKG_VERSION:=1.3
+PKG_VERSION:=1.3.1-14072021
 PKG_LICENSE:=GPLv3
-	
-define Package/luci-app-atinout-mod/postrm
-	rm -f /tmp/luci-indexcache
+
+define Package/luci-app-atinout-mod/postinst
+#!/bin/sh
+rm -rf /tmp/luci-indexcache
+rm -rf /tmp/luci-modulecache/
+/sbin/set_at_port.sh
+exit 0
 endef
 	
 include $(TOPDIR)/feeds/luci/luci.mk

@@ -5,34 +5,34 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 "Last-Translator: Rafał Wabik (IceG) - From eko.one.pl forum\n"
 
 msgid "AT Commands"
-msgstr "Komendy AT"
+msgstr "Polecenia AT"
 
 msgid "AT Commands Terminal"
-msgstr "Terminal Komend AT"
+msgstr "Terminal poleceń AT"
 
 msgid "Configuration"
 msgstr "Ustawienia"
 
 msgid "Web UI for sending AT Commands."
-msgstr "Interfejs użytkownika dla atinout do obsługi komend at."
+msgstr "Interfejs użytkownika dla atinout do obsługi poleceń AT."
 
 msgid "User AT Commands"
-msgstr "Komendy użytkownika"
+msgstr "Polecenia AT użytkownika"
 
 msgid "Command to send"
-msgstr "Komenda do wysłania"
+msgstr "Polecenie do wysłania"
 
 msgid "Reply"
 msgstr "Odpowiedź"
 
 msgid "Send Command"
-msgstr "Wyślij komendę"
+msgstr "Wyślij polecenie"
 
 msgid "Sending commands to modem"
-msgstr "Wysyłanie komend do modemu"
+msgstr "Wysyłanie poleceń do modemu"
 
 msgid "Please enter a AT Command"
-msgstr "Proszę podać komendę do wysłania"
+msgstr "Proszę podać polecenie do wysłania"
 
 msgid "Atinout Configuration"
 msgstr "Konfiguracja atinout"
@@ -47,4 +47,4 @@ msgid "Configuration panel for atinout."
 msgstr "Panel ustawień dla atinout."
 
 msgid "Each line must have the following format: 'AT Command name;AT Command'. Save to file '/etc/config/atcommands.user'."
-msgstr "Każda linijka powinna mieć następujący format: 'Etykieta komendy AT;Komenda AT'. Dla wygody komedny użytkownika zapisywane są w pliku '/etc/config/atcommands.user'."
+msgstr "Każda linijka powinna mieć następujący format: 'Etykieta polecenia;Polecenie AT'. Dla wygody polecenia użytkownika zapisywane są w pliku '/etc/config/atcommands.user'."
