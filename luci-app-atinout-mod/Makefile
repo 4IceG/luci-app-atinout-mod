@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 	
 LUCI_TITLE:=Web UI for atinout
 LUCI_DEPENDS:=+atinout +luci-compat
-PKG_VERSION:=1.3.1-14072021
+PKG_VERSION:=1.3.1-08082021
 PKG_LICENSE:=GPLv3
 
 define Package/luci-app-atinout-mod/postinst
