@@ -20,7 +20,7 @@ local try_devices1 = nixio.fs.glob("/dev/tty[A-Z][A-Z]*")
 m = Map("atinout", translate("Atinout Configuration"),
 	translate("Configuration panel for atinout."))
 
-s = m:section(NamedSection, 'general' , "atinout" , "<p>&nbsp;</p>" .. translate("AT Commands Terminal Settings"))
+s = m:section(NamedSection, 'general' , "atinout" , "" .. translate("AT Commands Terminal Settings"))
 s.anonymous = true
 
 dev1 = s:option(Value, "atcport", translate("AT Command Sending Port"))
