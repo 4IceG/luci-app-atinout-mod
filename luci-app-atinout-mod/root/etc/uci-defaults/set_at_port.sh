@@ -1,6 +1,12 @@
 #!/bin/sh
-# Copyright 2020-2021 Rafał Wabik (IceG) - From eko.one.pl forum
+
+#
+# Copyright 2020-2022 Rafał Wabik (IceG) - From eko.one.pl forum
 # Licensed to the GNU General Public License v3.0.
+
+chmod +x /usr/bin/luci-app-atinout
+rm -rf /tmp/luci-indexcache
+rm -rf /tmp/luci-modulecache/
 
 work=false
 for port in /dev/ttyUSB*
