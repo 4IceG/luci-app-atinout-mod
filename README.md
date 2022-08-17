@@ -12,12 +12,4 @@ My luci-app-atinout-mod is modyfication of https://github.com/koshev-msk/luci-ap
 
 ![](https://raw.githubusercontent.com/4IceG/Personal_data/master/zrzuty/1.9.0/atc.gif)
 
-### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="32"> Troubleshooting / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="32"> Rozwiązywanie problemów
-``` bash
-#Permission denied when sending any AT command.
-#Find the file on the router (/ usr / bin / luci-app-atinout) and check if it is executable.
-#Execute the command in console.
-
-chmod 755 /usr/bin/luci-app-atinout
-
 ```
