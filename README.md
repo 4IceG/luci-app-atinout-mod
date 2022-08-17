@@ -12,4 +12,3 @@ My luci-app-atinout-mod is modyfication of https://github.com/koshev-msk/luci-ap
 
 ![](https://raw.githubusercontent.com/4IceG/Personal_data/master/zrzuty/1.9.0/atc.gif)
 
-```
