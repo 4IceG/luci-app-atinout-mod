@@ -1,7 +1,7 @@
 # luci-app-atinout-mod
 
 Web UI AT-commands using atinout for OpenWrt.
-My luci-app-atinout-mod is modyfication of https://github.com/koshev-msk/luci-app-atinout.
+My luci-app-atinout-mod is modyfication of https://github.com/koshev-msk/modemfeed/tree/master/luci/applications/luci-app-atinout.
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/4IceG/luci-app-atinout-mod?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/4IceG/luci-app-atinout-mod?style=flat-square)
